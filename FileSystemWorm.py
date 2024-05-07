@@ -60,7 +60,7 @@ class FileSystemWorm:
     #         if target != self.path:
     #             # copy the worm to the target directory
     #             shutil.copyfile(self.path, target)
-
+ 
     def execute(self):
         # execute the list function
         self.list_dirs(self.base_path)
